@@ -75,7 +75,7 @@ yml 配置文件中配置：
 ```yml
 mybatis-plus:
   configuration:
-    default-enum-type-handler: xx.xx.xx.MyEnumTypeHandler
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
 ```
 
 或者通过自定义配置类：
